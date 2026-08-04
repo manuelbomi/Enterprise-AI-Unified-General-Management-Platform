@@ -1,0 +1,91 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Companion visual for tenant routing and shared API governance">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1520" y2="840" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1A2A"/>
+      <stop offset="0.5" stop-color="#11314B"/>
+      <stop offset="1" stop-color="#1E3A2A"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="lineA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="lineB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.2">
+    <circle cx="1320" cy="150" r="220" fill="#22D3EE"/>
+    <circle cx="230" cy="760" r="210" fill="#FB923C"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="80" width="1420" height="740" rx="30" fill="#0C2238" fill-opacity="0.68"/>
+    <rect x="90.5" y="80.5" width="1419" height="739" rx="29.5" stroke="url(#glass)"/>
+  </g>
+
+  <text x="150" y="160" fill="#A5F3FC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing="1.2">SHARED ENDPOINT INTELLIGENCE</text>
+  <text x="150" y="214" fill="#F8FAFC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="56" font-weight="700">Tenant Routing Companion View</text>
+  <text x="150" y="255" fill="#BBF7D0" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="22" font-weight="500">Same API, policy-specific model resolution, and real-time governance feedback</text>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="300" width="520" height="460" rx="24" fill="#102A43"/>
+    <rect x="150.5" y="300.5" width="519" height="459" rx="23.5" stroke="#67E8F9" stroke-opacity="0.45"/>
+  </g>
+
+  <text x="182" y="344" fill="#BAE6FD" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="20" font-weight="600">Inbound Requests</text>
+
+  <rect x="182" y="372" width="456" height="64" rx="14" fill="#0F3A54"/>
+  <text x="202" y="412" fill="#E0F2FE" font-family="JetBrains Mono, Consolas, monospace" font-size="16">POST /generate  tenant=finance</text>
+
+  <rect x="182" y="448" width="456" height="64" rx="14" fill="#0F3A54"/>
+  <text x="202" y="488" fill="#E0F2FE" font-family="JetBrains Mono, Consolas, monospace" font-size="16">POST /generate  tenant=legal</text>
+
+  <rect x="182" y="524" width="456" height="64" rx="14" fill="#0F3A54"/>
+  <text x="202" y="564" fill="#E0F2FE" font-family="JetBrains Mono, Consolas, monospace" font-size="16">POST /generate  tenant=support</text>
+
+  <rect x="182" y="614" width="456" height="120" rx="16" fill="#0B2F47"/>
+  <text x="204" y="650" fill="#A5F3FC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="17">Gateway checks</text>
+  <text x="204" y="678" fill="#D1FAE5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="15">- auth token + tenant scope</text>
+  <text x="204" y="703" fill="#D1FAE5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="15">- prompt risk score + redact pass</text>
+  <text x="204" y="728" fill="#D1FAE5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="15">- policy tier and budget limits</text>
+
+  <g filter="url(#shadow)">
+    <rect x="710" y="300" width="712" height="460" rx="24" fill="#132C2A"/>
+    <rect x="710.5" y="300.5" width="711" height="459" rx="23.5" stroke="#86EFAC" stroke-opacity="0.45"/>
+  </g>
+
+  <text x="742" y="344" fill="#BBF7D0" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="20" font-weight="600">Resolution + Outcome</text>
+
+  <rect x="742" y="372" width="646" height="82" rx="16" fill="#14532D"/>
+  <text x="764" y="405" fill="#DCFCE7" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="17" font-weight="600">finance -> gpt-4.1-finance-safe</text>
+  <text x="764" y="430" fill="#BBF7D0" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="15">policy: strict-risk / pii-guard / citation-required</text>
+
+  <rect x="742" y="468" width="646" height="82" rx="16" fill="#164E63"/>
+  <text x="764" y="501" fill="#E0F2FE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="17" font-weight="600">legal -> llama-3.3-70b-legal</text>
+  <text x="764" y="526" fill="#BAE6FD" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="15">policy: retrieval-locked / jurisdiction filters</text>
+
+  <rect x="742" y="564" width="646" height="82" rx="16" fill="#7C2D12"/>
+  <text x="764" y="597" fill="#FFEDD5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="17" font-weight="600">support -> gpt-4.1-mini-support</text>
+  <text x="764" y="622" fill="#FED7AA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="15">policy: empathy-tone / short-response / escalation hints</text>
+
+  <rect x="742" y="664" width="646" height="70" rx="16" fill="#0F172A"/>
+  <text x="764" y="706" fill="#67E8F9" font-family="JetBrains Mono, Consolas, monospace" font-size="16">latency p95 480ms  |  safety pass 99.1%  |  grounded answers 96.8%</text>
+
+  <path d="M638 404H710" stroke="url(#lineA)" stroke-width="4"/>
+  <path d="M638 480H710" stroke="url(#lineA)" stroke-width="4"/>
+  <path d="M638 556H710" stroke="url(#lineB)" stroke-width="4"/>
+
+  <rect x="150" y="778" width="492" height="34" rx="17" fill="#1E3A8A"/>
+  <text x="174" y="800" fill="#BFDBFE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14" font-weight="600">Companion panel for multi-tenant routing transparency and trust</text>
+</svg>

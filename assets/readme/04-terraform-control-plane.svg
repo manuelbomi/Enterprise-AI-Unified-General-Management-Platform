@@ -1,0 +1,90 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terraform control plane architecture visual">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1480" y2="840" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A1630"/>
+      <stop offset="0.55" stop-color="#1B2556"/>
+      <stop offset="1" stop-color="#123A58"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.22">
+    <circle cx="1330" cy="120" r="220" fill="#60A5FA"/>
+    <circle cx="220" cy="770" r="200" fill="#A78BFA"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="80" width="1420" height="740" rx="30" fill="#0B1B3A" fill-opacity="0.70"/>
+    <rect x="90.5" y="80.5" width="1419" height="739" rx="29.5" stroke="url(#card)"/>
+  </g>
+
+  <text x="150" y="160" fill="#C7D2FE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing="1.4">INFRASTRUCTURE ORCHESTRATION</text>
+  <text x="150" y="214" fill="#F8FAFC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="56" font-weight="700">Terraform Control Plane</text>
+  <text x="150" y="255" fill="#BFDBFE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="22" font-weight="500">Policy-driven provisioning across API, security, compute, and observability stacks</text>
+
+  <rect x="150" y="300" width="236" height="74" rx="16" fill="#1E293B"/>
+  <text x="180" y="345" fill="#C4B5FD" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="28" font-weight="700">32 modules</text>
+
+  <rect x="402" y="300" width="236" height="74" rx="16" fill="#1E293B"/>
+  <text x="432" y="345" fill="#7DD3FC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="28" font-weight="700">12 envs</text>
+
+  <rect x="654" y="300" width="236" height="74" rx="16" fill="#1E293B"/>
+  <text x="684" y="345" fill="#67E8F9" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="28" font-weight="700">Zero drift</text>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="420" width="520" height="320" rx="24" fill="#0F1F44"/>
+    <rect x="150.5" y="420.5" width="519" height="319" rx="23.5" stroke="#818CF8" stroke-opacity="0.55"/>
+  </g>
+
+  <text x="184" y="468" fill="#C7D2FE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="20" font-weight="600">Control Graph</text>
+  <rect x="186" y="498" width="128" height="46" rx="12" fill="#312E81"/>
+  <text x="210" y="527" fill="#E0E7FF" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">Network</text>
+  <rect x="356" y="498" width="128" height="46" rx="12" fill="#1D4ED8"/>
+  <text x="383" y="527" fill="#DBEAFE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">API</text>
+  <rect x="526" y="498" width="128" height="46" rx="12" fill="#0F766E"/>
+  <text x="542" y="527" fill="#CCFBF1" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">Security</text>
+
+  <rect x="271" y="608" width="128" height="46" rx="12" fill="#7C3AED"/>
+  <text x="286" y="637" fill="#F3E8FF" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">Compute</text>
+  <rect x="441" y="608" width="128" height="46" rx="12" fill="#0E7490"/>
+  <text x="449" y="637" fill="#CFFAFE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">Monitoring</text>
+
+  <path d="M314 521H356" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M484 521H526" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M420 544L335 608" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M540 544L505 608" stroke="url(#accent)" stroke-width="4"/>
+
+  <g filter="url(#shadow)">
+    <rect x="710" y="420" width="712" height="320" rx="24" fill="#0A233C"/>
+    <rect x="710.5" y="420.5" width="711" height="319" rx="23.5" stroke="#22D3EE" stroke-opacity="0.45"/>
+  </g>
+
+  <text x="742" y="468" fill="#A5F3FC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="20" font-weight="600">Deployment Pipeline</text>
+  <rect x="742" y="498" width="158" height="52" rx="13" fill="#172554"/>
+  <text x="776" y="530" fill="#BFDBFE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">Plan</text>
+  <rect x="944" y="498" width="158" height="52" rx="13" fill="#1E3A8A"/>
+  <text x="974" y="530" fill="#DBEAFE" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">Review</text>
+  <rect x="1146" y="498" width="158" height="52" rx="13" fill="#0F766E"/>
+  <text x="1178" y="530" fill="#CCFBF1" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16">Apply</text>
+
+  <path d="M900 524H944" stroke="#67E8F9" stroke-width="4"/>
+  <path d="M1102 524H1146" stroke="#67E8F9" stroke-width="4"/>
+
+  <rect x="742" y="584" width="562" height="120" rx="16" fill="#0B3558"/>
+  <text x="770" y="622" fill="#BAE6FD" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="17">State provenance: Signed plans + immutable apply logs + policy checks</text>
+  <text x="770" y="658" fill="#7DD3FC" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="17">Targets: VPC, IAM, Gateway, Vector DB, Secrets, Dashboards</text>
+
+  <rect x="150" y="778" width="414" height="34" rx="17" fill="#1E1B4B"/>
+  <text x="176" y="800" fill="#C4B5FD" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14" font-weight="600">Deterministic provisioning for enterprise AI stacks</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Model provenance and lineage visual">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="70" x2="1470" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24120D"/>
+      <stop offset="0.52" stop-color="#4A1E1D"/>
+      <stop offset="1" stop-color="#4A2C10"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FB7185"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#111827" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.20">
+    <circle cx="1360" cy="140" r="225" fill="#FB923C"/>
+    <circle cx="220" cy="760" r="200" fill="#FB7185"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="80" width="1420" height="740" rx="30" fill="#331714" fill-opacity="0.70"/>
+    <rect x="90.5" y="80.5" width="1419" height="739" rx="29.5" stroke="url(#glass)"/>
+  </g>
+
+  <text x="150" y="160" fill="#FDBA74" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing="1.3">TRUSTED MODEL SUPPLY CHAIN</text>
+  <text x="150" y="214" fill="#FFF7ED" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="56" font-weight="700">Provenance and Lineage Layer</text>
+  <text x="150" y="255" fill="#FED7AA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="22" font-weight="500">From dataset and training run to signed deployment and live API usage</text>
+
+  <g filter="url(#shadow)">
+    <rect x="150" y="300" width="1260" height="470" rx="24" fill="#3F1D18"/>
+    <rect x="150.5" y="300.5" width="1259" height="469" rx="23.5" stroke="#FDBA74" stroke-opacity="0.45"/>
+  </g>
+
+  <text x="184" y="345" fill="#FFEDD5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="20" font-weight="600">Verified Lineage Timeline</text>
+
+  <rect x="184" y="380" width="200" height="140" rx="16" fill="#7C2D12"/>
+  <text x="205" y="417" fill="#FFEDD5" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16" font-weight="700">1. Data Source</text>
+  <text x="205" y="446" fill="#FED7AA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Docs + policy corpus</text>
+  <text x="205" y="468" fill="#FED7AA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Hash anchored</text>
+
+  <rect x="424" y="380" width="200" height="140" rx="16" fill="#9A3412"/>
+  <text x="445" y="417" fill="#FFF7ED" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16" font-weight="700">2. Training</text>
+  <text x="445" y="446" fill="#FED7AA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Run metadata</text>
+  <text x="445" y="468" fill="#FED7AA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Artifact lock</text>
+
+  <rect x="664" y="380" width="200" height="140" rx="16" fill="#B45309"/>
+  <text x="685" y="417" fill="#FFFBEB" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16" font-weight="700">3. Evaluation</text>
+  <text x="685" y="446" fill="#FDE68A" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Safety benchmarks</text>
+  <text x="685" y="468" fill="#FDE68A" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Risk thresholds</text>
+
+  <rect x="904" y="380" width="200" height="140" rx="16" fill="#BE123C"/>
+  <text x="925" y="417" fill="#FFE4E6" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16" font-weight="700">4. Signing</text>
+  <text x="925" y="446" fill="#FBCFE8" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Binary attestation</text>
+  <text x="925" y="468" fill="#FBCFE8" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Issuer record</text>
+
+  <rect x="1144" y="380" width="232" height="140" rx="16" fill="#7F1D1D"/>
+  <text x="1165" y="417" fill="#FEE2E2" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="16" font-weight="700">5. Deployment + Runtime</text>
+  <text x="1165" y="446" fill="#FECACA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Tenant-aware release</text>
+  <text x="1165" y="468" fill="#FECACA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14">Continuous verification</text>
+
+  <path d="M384 450H424" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M624 450H664" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M864 450H904" stroke="url(#accent)" stroke-width="4"/>
+  <path d="M1104 450H1144" stroke="url(#accent)" stroke-width="4"/>
+
+  <rect x="184" y="562" width="1192" height="174" rx="18" fill="#4A211B"/>
+  <text x="218" y="602" fill="#FED7AA" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="18" font-weight="600">Traceability Snapshot</text>
+  <text x="218" y="636" fill="#FFEDD5" font-family="JetBrains Mono, Consolas, monospace" font-size="16">model_id: llm-enterprise-prod-2026.08.04</text>
+  <text x="218" y="662" fill="#FFEDD5" font-family="JetBrains Mono, Consolas, monospace" font-size="16">dataset_hash: sha256:96a7...f18c   training_run: trn-4471</text>
+  <text x="218" y="688" fill="#FFEDD5" font-family="JetBrains Mono, Consolas, monospace" font-size="16">signature: sigstore://corp-ai/attestation/88ae   status: VERIFIED</text>
+  <text x="218" y="714" fill="#FDBA74" font-family="JetBrains Mono, Consolas, monospace" font-size="16">runtime_guardrails: prompt_defense=ON, tenant_isolation=STRICT, provenance_check=PASS</text>
+
+  <rect x="150" y="778" width="430" height="34" rx="17" fill="#7C2D12"/>
+  <text x="173" y="800" fill="#FDBA74" font-family="Space Grotesk, Segoe UI, sans-serif" font-size="14" font-weight="600">Full auditability from model intake to production inference</text>
+</svg>
