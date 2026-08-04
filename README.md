@@ -1,4 +1,4 @@
-# Enterprise AI Service Generator
+# Enterprise AI Unified General Management Platform
 
 This repository contains a scaffold generator for enterprise AI services.
 The purpose of this platform is to standardize how AI solutions are packaged,
