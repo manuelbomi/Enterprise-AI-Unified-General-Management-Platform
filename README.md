@@ -198,10 +198,10 @@ tenant-aware routing patterns across the platform.
 | ![Full dashboard with tenant access](assets/readme/02-full-dashboard-tenant-access.png) | Full-page platform view showing summary, governance, and multi-tenant model access together. |
 | ![Tenant routing companion visual](assets/readme/02b-tenant-routing-companion.svg) | Companion visual for the shared endpoint view, showing tenant-specific model resolution, policy checks, and outcome telemetry. |
 | ![Live RAG use case](assets/readme/03-live-rag-use-case.png) | A real prompt submitted through the dashboard and the grounded response returned by the backend. |
-| ![Terraform control plane visual](assets/readme/04-terraform-control-plane.png) | Terraform-oriented architecture visual showing policy-driven provisioning and deployment orchestration for enterprise AI infrastructure. |
-| ![Security layer stack visual](assets/readme/05-security-layer-stack.png) | Defense-in-depth security layers spanning prompt defense, tenant gatekeeping, model verification, and audit controls. |
+
+
 | ![Tenant access section focus](assets/readme/06-tenant-shared-api-focus.png) | Focused view of the tenant access section where one API is shared and policy tiers differ by team. |
-| ![Provenance and lineage visual](assets/readme/07-provenance-chain-visibility.png) | Provenance timeline from source data to signed deployment with verifiable model lineage and runtime guardrails. |
+
 | ![Swagger API docs for shared endpoint](assets/readme/08-api-docs-shared-endpoint.png) | The backend API docs that expose the shared POST /generate interface used by all tenants. |
 
 ### Tenant payload examples (same API, different LLM routing)
