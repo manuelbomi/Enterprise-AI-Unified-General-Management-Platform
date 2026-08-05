@@ -194,7 +194,7 @@ tenant-aware routing patterns across the platform.
 
 | Platform view | What it shows |
 | --- | --- |
-| ![Enterprise platform hero visual (SVG)](assets/readme/01-enterprise-platform-hero.svg) | Vector version of the same hero visual for crisp scaling in documentation and presentations. |
+| ![Enterprise platform hero visual (SVG)](assets/readme/01-enterprise-platform-hero.svg) | Enterprise Unified General AI/LLM User Interface  |
 | ![Full dashboard with tenant access](assets/readme/02-full-dashboard-tenant-access.png) | Full-page platform view showing summary, governance, and multi-tenant model access together. |
 | ![Tenant routing companion visual](assets/readme/02b-tenant-routing-companion.svg) | Companion visual for the shared endpoint view, showing tenant-specific model resolution, policy checks, and outcome telemetry. |
 | ![Live RAG use case](assets/readme/03-live-rag-use-case.png) | A real prompt submitted through the dashboard and the grounded response returned by the backend. |
